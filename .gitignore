@@ -21,9 +21,5 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-# Cordova
-/src-cordova/platforms
-/src-cordova/plugins
-/src-cordova/www
-/public/cordova.js
-src-cordova/com.scopevisio.erp.server_cordova_build_templates_apk_sign.jks
+# dist
+dist/

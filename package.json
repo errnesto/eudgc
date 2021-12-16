@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "npx webpack serve --mode=development",
     "serve": "npx webpack serve --mode=development",
-    "build": "npx webpack --mode=production && cp dist/eudgc.js docs",
+    "build": "tsc",
     "prepublishOnly": "npx webpack --mode=production && cp dist/eudgc.js docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
